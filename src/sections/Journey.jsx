@@ -7,7 +7,7 @@ const milestones = [
         title: "First Meet",
         date: "September 12, 2021",
         description: "It all started with a simple 'hello' at a local coffee shop. Little did we know, it was the beginning of our forever.",
-        image: "https://images.unsplash.com/photo-1511733334857-e8908ee87820?auto=format&fit=crop&q=80&w=400&h=400",
+        image: "https://share.google/InvFUhfeOUIiR827E",
     },
     {
         id: 2,
