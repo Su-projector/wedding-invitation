@@ -21,7 +21,7 @@ const milestones = [
         title: "The Engagement",
         date: "July 05, 2024",
         description: "Surrounded by family and friends, we celebrated our commitment to each other with a beautiful garden party.",
-        image: "https://images.unsplash.com/photo-1522673607200-1648832cee98?auto=format&fit=crop&q=80&w=400&h=400",
+        image: "https://unsplash.com/photos/a-man-kneeling-down-next-to-a-woman-wmfPbCKxBjE",
     },
     {
         id: 4,
