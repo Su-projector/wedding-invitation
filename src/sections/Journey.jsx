@@ -7,7 +7,7 @@ const milestones = [
         title: "First Meet",
         date: "September 12, 2021",
         description: "It all started with a simple 'hello' at a local coffee shop. Little did we know, it was the beginning of our forever.",
-        image: "https://unsplash.com/photos/a-man-kneeling-down-next-to-a-woman-wmfPbCKxBjE",
+        image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=400&h=400",
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const milestones = [
         title: "The Engagement",
         date: "July 05, 2024",
         description: "Surrounded by family and friends, we celebrated our commitment to each other with a beautiful garden party.",
-        image: "https://unsplash.com/photos/a-man-kneeling-down-next-to-a-woman-wmfPbCKxBjE",
+        image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=400&h=400",
     },
     {
         id: 4,
@@ -60,7 +60,7 @@ const Milestone = ({ milestone, index }) => {
             {/* Spacing / Center Line for Desktop */}
             <div className="hidden md:flex flex-col items-center justify-center w-20 relative">
                 <div className="w-4 h-4 rounded-full bg-accent-gold z-20 shadow-[0_0_15px_rgba(212,175,55,0.6)]" />
-                <div className="absolute top-0 bottom-[-96px] w-[2px] bg-gradient-to-b from-accent-gold/50 via-accent-gold/20 to-transparent" />
+                <div className="absolute top-0 bottom-[-96px] w-[2px] bg-linear-to-b from-accent-gold/50 via-accent-gold/20 to-transparent" />
             </div>
 
             {/* Text Column */}

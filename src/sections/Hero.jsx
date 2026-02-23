@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const Hero = ({ weddingDate }) => {
     return (
-        <section className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-primary-light via-primary to-primary-dark">
+        <section className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden bg-linear-to-b from-primary-light via-primary to-primary-dark">
             {/* Background Decorative Elements */}
             <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
                 <div className="absolute top-0 left-0 w-64 h-64 bg-accent-rose blur-[100px] rounded-full -translate-x-1/2 -translate-y-1/2" />
@@ -22,7 +22,7 @@ const Hero = ({ weddingDate }) => {
                 <h1 className="title-elegant text-5xl sm:text-7xl md:text-8xl text-gray-800 mb-8 leading-tight px-4">
                     Sarah <span className="text-accent-rose italic">&</span> James
                 </h1>
-                <div className="w-24 h-[1px] bg-accent-gold mx-auto mb-8 opacity-50" />
+                <div className="w-24 h-px bg-accent-gold mx-auto mb-8 opacity-50" />
 
                 <p className="title-elegant text-2xl md:text-3xl text-gray-600 italic mb-12">
                     Save the Date

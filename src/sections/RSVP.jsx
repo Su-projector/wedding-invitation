@@ -11,7 +11,7 @@ const RSVP = () => {
     return (
         <section className="py-24 bg-white relative overflow-hidden">
             {/* Decorative background labels */}
-            <div className="absolute bottom-10 left-[-5%] text-[12rem] font-bold text-gray-50 pointer-events-none select-none -z-0">
+            <div className="absolute bottom-10 left-[-5%] text-[12rem] font-bold text-gray-50 pointer-events-none select-none z-0">
                 RSVP
             </div>
 

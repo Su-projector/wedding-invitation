@@ -7,9 +7,9 @@ import "yet-another-react-lightbox/styles.css";
 // Decorative Divider Component
 const Divider = () => (
     <div className="flex items-center justify-center space-x-4 my-8">
-        <div className="h-[1px] w-12 md:w-24 bg-accent-gold/40" />
+        <div className="h-px w-12 md:w-24 bg-accent-gold/40" />
         <div className="w-2 h-2 rounded-full border border-accent-gold rotate-45" />
-        <div className="h-[1px] w-12 md:w-24 bg-accent-gold/40" />
+        <div className="h-px w-12 md:w-24 bg-accent-gold/40" />
     </div>
 );
 
